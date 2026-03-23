@@ -1525,6 +1525,7 @@ a {
   background: var(--surface-muted);
   border: 1px solid var(--line);
   border-radius: 0px;
+  color: var(--text);
   display: inline-flex;
   font-size: 13px;
   font-weight: 700;
