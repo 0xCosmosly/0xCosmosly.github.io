@@ -21,3 +21,4 @@ ios/
 vite.config.js
 vite.config.d.ts
 research/
+scripts/

@@ -13,7 +13,7 @@ This project uses a React frontend powered by Vite and a backend powered by Supa
 
 - **`src/`**: Contains the React application code. This is where all the UI components, styles, map logic (Leaflet), and state management live.
 - **`public/`**: Static assets that don't need processing, like the PWA manifest, service workers, and app icons.
-- **`scripts/`**: Automation tools used for gathering, validating, and managing data behind the scenes. This includes scrapers, formatting scripts, and database sync utilities.
+- **`scripts/`** *(local only)*: Automation tools used for gathering, validating, and managing data behind the scenes. This includes scrapers, formatting scripts, and database sync utilities.
 - **`supabase/`** *(local only)*: Contains the database schema and seed data to replicate the exact database state locally.
 - **`data/`** *(local only)*: Raw output logs from web scrapers and AI agents used to gather new leads and build the database.
 - **`docs/`** *(local only)*: Legacy GitHub Pages deployment folder.
