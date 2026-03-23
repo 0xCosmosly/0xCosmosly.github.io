@@ -614,7 +614,7 @@ export default function App() {
   const restaurantsWithCoordinates = filteredRestaurants.filter(
     (restaurant) => restaurant.lat !== null && restaurant.lng !== null
   ).length;
-  const mobileListShouldScroll = isMobileViewport && filteredRestaurants.length > 5;
+  const mobileListShouldScroll = false; // Disabled inner scroll on mobile, relying on full page scroll
   const noTipCount = effectiveRestaurants.filter((restaurant) => isStrictNoTipLocation(restaurant)).length;
   const includedCount = effectiveRestaurants.filter((restaurant) => restaurant.has_service_fee).length;
   const reviewCount = effectiveRestaurants.filter((restaurant) => restaurant.verification_status === 'needs_review').length;
@@ -1032,7 +1032,8 @@ export default function App() {
 
         {!loading ? (
           <>
-            <div className="mobile-stage-switch-shell">
+            <div className="mobile-sticky-header">
+              <div className="mobile-stage-switch-shell">
               <div className="mobile-view-switch" aria-label="Mobile panel switch">
                 <button
                   aria-pressed={mobilePanel === 'map'}
@@ -1195,6 +1196,7 @@ export default function App() {
                 </div>
               </div>
             ) : null}
+            </div>
 
             <section className="workspace-grid">
             <div className={`map-stage ${mobilePanel === 'list' ? 'is-mobile-hidden' : ''}`}>
@@ -1437,7 +1439,10 @@ export default function App() {
                   <div className="mobile-pagination">
                     <button
                       disabled={mobilePage === 1}
-                      onClick={() => setMobilePage((p) => Math.max(1, p - 1))}
+                      onClick={() => {
+                        setMobilePage((p) => Math.max(1, p - 1));
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                      }}
                       className="pagination-btn"
                     >
                       &larr; Prev
@@ -1447,7 +1452,10 @@ export default function App() {
                     </span>
                     <button
                       disabled={mobilePage === totalMobilePages}
-                      onClick={() => setMobilePage((p) => Math.min(totalMobilePages, p + 1))}
+                      onClick={() => {
+                        setMobilePage((p) => Math.min(totalMobilePages, p + 1));
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                      }}
                       className="pagination-btn"
                     >
                       Next &rarr;
