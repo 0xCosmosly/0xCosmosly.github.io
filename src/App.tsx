@@ -41,7 +41,7 @@ const suggestionFormUrl =
   'https://docs.google.com/forms/d/e/1FAIpQLSc4EnjoMvPO3It2-bCula_Bxs2Gj8kDYjGRGU6_tc1CGrQJfQ/viewform';
 const donationUrl = 'https://buymeacoffee.com/raychco';
 const oneFairWageUrl = 'https://www.onefairwage.org/';
-const lastUpdatedLabel = '03/19/2026';
+const lastUpdatedLabel = '03/22/2026';
 const launchChangelogLabel = '03/22/2026 // Went live for the first time';
 const mobileChangelogLabel = '03/19/2026 // Created mobile version';
 const selectedRestaurantUrlParam = 'restaurant';
@@ -874,8 +874,8 @@ export default function App() {
             </span>
           </summary>
           <div className="hero-changelog-menu">
-            <p>{mobileChangelogLabel}</p>
             <p>{launchChangelogLabel}</p>
+            <p>{mobileChangelogLabel}</p>
           </div>
         </details>
       </div>
