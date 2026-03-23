@@ -1009,7 +1009,7 @@ a {
 }
 
 .evidence-rail .stage-heading {
-  margin-bottom: 4px;
+  margin-bottom: 12px;
   min-height: auto;
 }
 
@@ -2931,18 +2931,18 @@ button:disabled {
 }
 
 .hero-changelog-menu {
-  left: auto;
+  left: 0;
   min-width: 0;
-  max-width: calc(100vw - 24px);
+  max-width: calc(100vw - 32px);
   padding: var(--fluid-space-md);
-  right: 0;
+  right: auto;
   width: max-content;
 }
 
 .hero-changelog-menu p {
   font-size: var(--fluid-font-support) !important; /* Force resize for menu content */
   line-height: 1.5; 
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .workspace-toolbar {
@@ -3237,7 +3237,7 @@ button:disabled {
 
   .evidence-rail .stage-heading {
     margin-top: var(--fluid-space-md);
-    margin-bottom: 0;
+    margin-bottom: var(--fluid-space-sm);
   }
 
   .map-root {
