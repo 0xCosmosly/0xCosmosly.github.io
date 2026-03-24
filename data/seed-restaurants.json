@@ -1,5 +1,84 @@
 [
   {
+    "id": "local-uovo-santa-monica",
+    "slug": "uovo-santa-monica",
+    "name": "UOVO (Santa Monica)",
+    "address": "1320 2nd St Ste A, Santa Monica, CA 90401",
+    "city": "Santa Monica",
+    "neighborhood": "Downtown Santa Monica",
+    "website": "https://uovo.la/locations/location-santa-monica/",
+    "yelp_url": "https://www.yelp.com/biz/uovo-santa-monica",
+    "lat": 34.0156,
+    "lng": -118.497,
+    "is_fast_food": false,
+    "has_no_tip_policy": true,
+    "has_service_fee": true,
+    "verification_status": "verified",
+    "verification_notes": "16% fee included.\n\nConfirmed by u/Urmotherwasuhhamster",
+    "last_checked_at": "2026-03-24T00:00:00Z",
+    "citations": [
+      {
+        "source_name": "UOVO Santa Monica location page",
+        "source_url": "https://uovo.la/locations/location-santa-monica/",
+        "excerpt": "1320 2nd St Ste A, Santa Monica, CA 90401",
+        "checked_at": "2026-03-24T00:00:00Z",
+        "confidence": 5
+      }
+    ]
+  },
+  {
+    "id": "local-uovo-marina-del-rey",
+    "slug": "uovo-marina-del-rey",
+    "name": "UOVO (Marina del Rey)",
+    "address": "4300 East Washington Blvd, Marina Del Rey, CA 90292",
+    "city": "Marina Del Rey",
+    "neighborhood": "Marina Del Rey",
+    "website": "https://uovo.la/locations/location-marina-del-rey/",
+    "lat": 33.9859,
+    "lng": -118.441,
+    "is_fast_food": false,
+    "has_no_tip_policy": true,
+    "has_service_fee": true,
+    "verification_status": "verified",
+    "verification_notes": "16% fee included.\n\nConfirmed by u/Urmotherwasuhhamster",
+    "last_checked_at": "2026-03-24T00:00:00Z",
+    "citations": [
+      {
+        "source_name": "UOVO Marina del Rey location page",
+        "source_url": "https://uovo.la/locations/location-marina-del-rey/",
+        "excerpt": "4300 East Washington Blvd, Marina Del Rey, CA 90292",
+        "checked_at": "2026-03-24T00:00:00Z",
+        "confidence": 5
+      }
+    ]
+  },
+  {
+    "id": "local-uovo-pasadena",
+    "slug": "uovo-pasadena",
+    "name": "UOVO (Pasadena)",
+    "address": "146 S Lake Ave #103, Pasadena, CA 91101",
+    "city": "Pasadena",
+    "neighborhood": "South Lake",
+    "website": "https://uovo.la/locations/location-pasadena/",
+    "lat": 34.1432,
+    "lng": -118.132,
+    "is_fast_food": false,
+    "has_no_tip_policy": true,
+    "has_service_fee": true,
+    "verification_status": "verified",
+    "verification_notes": "16% fee included.\n\nConfirmed by u/Urmotherwasuhhamster",
+    "last_checked_at": "2026-03-24T00:00:00Z",
+    "citations": [
+      {
+        "source_name": "UOVO Pasadena location page",
+        "source_url": "https://uovo.la/locations/location-pasadena/",
+        "excerpt": "146 S Lake Ave #103, Pasadena, CA 91101",
+        "checked_at": "2026-03-24T00:00:00Z",
+        "confidence": 5
+      }
+    ]
+  },
+  {
     "id": "local-kazunori-marina-del-rey",
     "slug": "kazunori-marina-del-rey",
     "name": "KazuNori (Marina del Rey)",
