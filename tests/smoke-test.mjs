@@ -13,7 +13,7 @@ async function runSmokeTest() {
     preview.stdout.on('data', (data) => {
       const output = data.toString();
       console.log(`[Preview]: ${output}`);
-      const match = output.match(/http:\/\/localhost:(\d+)/);
+      const match = output.match(/https?:\/\/localhost:(\d+)/);
       if (match) {
         port = match[1];
         resolve();
@@ -35,7 +35,8 @@ async function runSmokeTest() {
   console.log(`Preview server running on port ${port}. Launching browser...`);
   
   const browser = await chromium.launch({ headless: true });
-  const page = await browser.newPage();
+  const context = await browser.newContext({ ignoreHTTPSErrors: true });
+  const page = await context.newPage();
   
   const issues = [];
 
@@ -55,9 +56,9 @@ async function runSmokeTest() {
     issues.push(`Failed Network Request: ${request.url()} - ${request.failure().errorText}`);
   });
 
-  console.log(`Navigating to http://localhost:${port}...`);
+  console.log(`Navigating to https://localhost:${port}...`);
   try {
-    const response = await page.goto(`http://localhost:${port}`, { waitUntil: 'networkidle' });
+    const response = await page.goto(`https://localhost:${port}`, { waitUntil: 'networkidle' });
     if (!response.ok()) {
       issues.push(`HTTP Status: ${response.status()} ${response.statusText()}`);
     }

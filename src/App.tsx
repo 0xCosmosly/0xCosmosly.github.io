@@ -191,7 +191,10 @@ export default function App() {
   const deviceId = useMemo(() => (typeof window === 'undefined' ? '' : getDeviceId()), []);
   const [mobilePage, setMobilePage] = useState<number>(1);
 
+  const hasExplicitLocationSelection = useRef(false);
+
   const handleSelectRestaurant = (restaurantId: string) => {
+    hasExplicitLocationSelection.current = true;
     setIsLosAngelesOverviewActive(false);
     setSelectedId(restaurantId);
   };
@@ -219,8 +222,7 @@ export default function App() {
             return currentSelectedId;
           }
 
-          const qinNoodle = demoRows.find((r) => r.name.toLowerCase().includes('qin west'));
-          return qinNoodle ? qinNoodle.id : null;
+          return demoRows.length > 0 ? demoRows[0].id : null;
         });
         setLoading(false);
         return;
@@ -321,8 +323,7 @@ export default function App() {
           return currentSelectedId;
         }
 
-        const qinNoodle = hydratedRows.find((r) => r.name.toLowerCase().includes('qin west'));
-        return qinNoodle ? qinNoodle.id : null;
+        return hydratedRows.length > 0 ? hydratedRows[0].id : null;
       });
       setLoading(false);
     }
@@ -464,7 +465,7 @@ export default function App() {
     const nextUrl = new URL(window.location.href);
     const selectedRestaurantForUrl = restaurants.find((restaurant) => restaurant.id === selectedId) ?? null;
 
-    if (selectedRestaurantForUrl) {
+    if (selectedRestaurantForUrl && (hasExplicitLocationSelection.current || initialSelectedRestaurantToken)) {
       nextUrl.searchParams.set(
         selectedRestaurantUrlParam,
         selectedRestaurantForUrl.slug || selectedRestaurantForUrl.id
@@ -648,6 +649,7 @@ export default function App() {
       return;
     }
 
+    hasExplicitLocationSelection.current = true;
     setIsLosAngelesOverviewActive(false);
     setSelectedId(closestMappedRestaurant.id);
     setMapSelectionFocusToken((current) => current + 1);
@@ -670,6 +672,7 @@ export default function App() {
   }, [closestMappedRestaurant, isLosAngelesOverviewActive, selectedRestaurantHasCoordinates, userLocation]);
 
   const handleShowLosAngelesOverview = () => {
+    hasExplicitLocationSelection.current = true;
     setIsLosAngelesOverviewActive(true);
     setSelectedId(null);
   };
