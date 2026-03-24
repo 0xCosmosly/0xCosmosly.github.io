@@ -1,5 +1,85 @@
 [
   {
+    "id": "local-hiho-santa-monica",
+    "slug": "hiho-santa-monica",
+    "name": "HiHo Cheeseburger (Santa Monica)",
+    "address": "1320 2nd St Ste B, Santa Monica, CA 90401",
+    "city": "Santa Monica",
+    "neighborhood": "Downtown Santa Monica",
+    "website": "https://hiho.la",
+    "yelp_url": "https://www.yelp.com/biz/hiho-cheeseburger-santa-monica",
+    "lat": 34.0155,
+    "lng": -118.497,
+    "is_fast_food": false,
+    "has_no_tip_policy": true,
+    "has_service_fee": true,
+    "verification_status": "verified",
+    "verification_notes": "16% fee included.\n\nConfirmed by u/bloodredyouth",
+    "last_checked_at": "2026-03-24T00:00:00Z",
+    "citations": [
+      {
+        "source_name": "HiHo Cheeseburger Santa Monica location page",
+        "source_url": "https://hiho.la/locations/location-santa-monica/",
+        "excerpt": "1320 2nd St Ste B, Santa Monica, CA 90401",
+        "checked_at": "2026-03-24T00:00:00Z",
+        "confidence": 5
+      }
+    ]
+  },
+  {
+    "id": "local-hiho-marina-del-rey",
+    "slug": "hiho-marina-del-rey",
+    "name": "HiHo Cheeseburger (Marina del Rey)",
+    "address": "4625 Admiralty Way, Marina Del Rey, CA 90292",
+    "city": "Marina Del Rey",
+    "neighborhood": "Marina Del Rey",
+    "website": "https://hiho.la",
+    "yelp_url": "https://www.yelp.com/biz/hiho-cheeseburger-marina-del-rey-3",
+    "lat": 33.9818,
+    "lng": -118.441,
+    "is_fast_food": false,
+    "has_no_tip_policy": true,
+    "has_service_fee": true,
+    "verification_status": "verified",
+    "verification_notes": "16% fee included.\n\nConfirmed by u/bloodredyouth",
+    "last_checked_at": "2026-03-24T00:00:00Z",
+    "citations": [
+      {
+        "source_name": "HiHo Cheeseburger Marina del Rey location page",
+        "source_url": "https://hiho.la/locations/location-marina-del-rey/",
+        "excerpt": "4625 Admiralty Way, Marina Del Rey, CA 90292",
+        "checked_at": "2026-03-24T00:00:00Z",
+        "confidence": 5
+      }
+    ]
+  },
+  {
+    "id": "local-hiho-pasadena",
+    "slug": "hiho-pasadena",
+    "name": "HiHo Cheeseburger (Pasadena)",
+    "address": "146 S Lake Ave #103, Pasadena, CA 91101",
+    "city": "Pasadena",
+    "neighborhood": "South Lake",
+    "website": "https://hiho.la",
+    "lat": 34.1432,
+    "lng": -118.132,
+    "is_fast_food": false,
+    "has_no_tip_policy": true,
+    "has_service_fee": true,
+    "verification_status": "verified",
+    "verification_notes": "16% fee included.\n\nConfirmed by u/bloodredyouth",
+    "last_checked_at": "2026-03-24T00:00:00Z",
+    "citations": [
+      {
+        "source_name": "HiHo Cheeseburger Pasadena location page",
+        "source_url": "https://hiho.la/locations/location-pasadena/",
+        "excerpt": "146 S Lake Ave #103, Pasadena, CA 91101",
+        "checked_at": "2026-03-24T00:00:00Z",
+        "confidence": 5
+      }
+    ]
+  },
+  {
     "id": "local-uovo-santa-monica",
     "slug": "uovo-santa-monica",
     "name": "UOVO (Santa Monica)",
