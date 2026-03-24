@@ -1,5 +1,294 @@
 [
   {
+    "id": "local-kazunori-marina-del-rey",
+    "slug": "kazunori-marina-del-rey",
+    "name": "KazuNori (Marina del Rey)",
+    "address": "4635 Admiralty Way, Marina Del Rey, CA 90292",
+    "city": "Marina Del Rey",
+    "neighborhood": "Marina Del Rey",
+    "website": "https://www.handrollbar.com",
+    "yelp_url": "https://www.yelp.com/biz/kazunori-the-original-hand-roll-bar-marina-del-rey",
+    "lat": 33.9806,
+    "lng": -118.441,
+    "is_fast_food": false,
+    "has_no_tip_policy": true,
+    "has_service_fee": true,
+    "verification_status": "verified",
+    "verification_notes": "16% fee included.\n\nConfirmed by u/Sibari_Inu69",
+    "last_checked_at": "2026-03-24T00:00:00Z",
+    "citations": [
+      {
+        "source_name": "KazuNori Marina del Rey location page",
+        "source_url": "https://www.handrollbar.com/locations/marina-del-rey/",
+        "excerpt": "4635 Admiralty Way, Marina Del Rey, CA 90292",
+        "checked_at": "2026-03-24T00:00:00Z",
+        "confidence": 5
+      }
+    ]
+  },
+  {
+    "id": "local-kazunori-santa-monica",
+    "slug": "kazunori-santa-monica",
+    "name": "KazuNori (Santa Monica)",
+    "address": "120 Broadway, Santa Monica, CA 90401",
+    "city": "Santa Monica",
+    "neighborhood": "Downtown Santa Monica",
+    "website": "https://www.handrollbar.com",
+    "yelp_url": "https://www.yelp.com/biz/kazunori-the-original-hand-roll-bar-santa-monica-2",
+    "lat": 34.0136,
+    "lng": -118.496,
+    "is_fast_food": false,
+    "has_no_tip_policy": true,
+    "has_service_fee": true,
+    "verification_status": "verified",
+    "verification_notes": "16% fee included.\n\nConfirmed by u/Sibari_Inu69",
+    "last_checked_at": "2026-03-24T00:00:00Z",
+    "citations": [
+      {
+        "source_name": "KazuNori Santa Monica location page",
+        "source_url": "https://www.handrollbar.com/locations/santa-monica/",
+        "excerpt": "120 Broadway #104, Santa Monica, CA 90401",
+        "checked_at": "2026-03-24T00:00:00Z",
+        "confidence": 5
+      }
+    ]
+  },
+  {
+    "id": "local-kazunori-studio-city",
+    "slug": "kazunori-studio-city",
+    "name": "KazuNori (Studio City)",
+    "address": "11288 Ventura Blvd, Studio City, CA 91604",
+    "city": "Studio City",
+    "neighborhood": "Studio City",
+    "website": "https://www.handrollbar.com",
+    "yelp_url": "https://www.yelp.com/biz/kazunori-the-original-hand-roll-bar-studio-city",
+    "lat": 34.1408,
+    "lng": -118.375,
+    "is_fast_food": false,
+    "has_no_tip_policy": true,
+    "has_service_fee": true,
+    "verification_status": "verified",
+    "verification_notes": "16% fee included.\n\nConfirmed by u/Sibari_Inu69",
+    "last_checked_at": "2026-03-24T00:00:00Z",
+    "citations": [
+      {
+        "source_name": "KazuNori Studio City location page",
+        "source_url": "https://www.handrollbar.com/locations/studio-city/",
+        "excerpt": "11288 Ventura Blvd, Studio City, CA 91604",
+        "checked_at": "2026-03-24T00:00:00Z",
+        "confidence": 5
+      }
+    ]
+  },
+  {
+    "id": "local-sugarfish-beverly-hills",
+    "slug": "sugarfish-beverly-hills",
+    "name": "SUGARFISH (Beverly Hills)",
+    "address": "212 N Canon Dr, Beverly Hills, CA 90210",
+    "city": "Beverly Hills",
+    "neighborhood": "Beverly Hills",
+    "website": "https://sugarfishsushi.com/locations/beverly-hills/",
+    "lat": 34.0683,
+    "lng": -118.399,
+    "is_fast_food": false,
+    "has_no_tip_policy": true,
+    "has_service_fee": true,
+    "verification_status": "verified",
+    "verification_notes": "16% fee included.\n\nConfirmed by u/]Urmotherwasuhhamster",
+    "last_checked_at": "2026-03-24T00:00:00Z",
+    "citations": [
+      {
+        "source_name": "SUGARFISH Beverly Hills location page",
+        "source_url": "https://sugarfishsushi.com/locations/beverly-hills/",
+        "excerpt": "212 N Canon Dr, Beverly Hills, CA 90210",
+        "checked_at": "2026-03-24T00:00:00Z",
+        "confidence": 5
+      }
+    ]
+  },
+  {
+    "id": "local-sugarfish-brentwood",
+    "slug": "sugarfish-brentwood",
+    "name": "SUGARFISH (Brentwood)",
+    "address": "11640 W San Vicente Blvd, Los Angeles, CA 90049",
+    "city": "Los Angeles",
+    "neighborhood": "Brentwood",
+    "website": "https://sugarfishsushi.com/locations/brentwood/",
+    "lat": 34.0531,
+    "lng": -118.466,
+    "is_fast_food": false,
+    "has_no_tip_policy": true,
+    "has_service_fee": true,
+    "verification_status": "verified",
+    "verification_notes": "16% fee included.\n\nConfirmed by u/]Urmotherwasuhhamster",
+    "last_checked_at": "2026-03-24T00:00:00Z",
+    "citations": [
+      {
+        "source_name": "SUGARFISH Brentwood location page",
+        "source_url": "https://sugarfishsushi.com/locations/brentwood/",
+        "excerpt": "11640 W San Vicente Blvd, Los Angeles, CA 90049",
+        "checked_at": "2026-03-24T00:00:00Z",
+        "confidence": 5
+      }
+    ]
+  },
+  {
+    "id": "local-sugarfish-santa-monica",
+    "slug": "sugarfish-santa-monica",
+    "name": "SUGARFISH (Santa Monica)",
+    "address": "1345 2nd St, Santa Monica, CA 90401",
+    "city": "Santa Monica",
+    "neighborhood": "Downtown Santa Monica",
+    "website": "https://sugarfishsushi.com/locations/santa-monica/",
+    "lat": 34.0152,
+    "lng": -118.497,
+    "is_fast_food": false,
+    "has_no_tip_policy": true,
+    "has_service_fee": true,
+    "verification_status": "verified",
+    "verification_notes": "16% fee included.\n\nConfirmed by u/]Urmotherwasuhhamster",
+    "last_checked_at": "2026-03-24T00:00:00Z",
+    "citations": [
+      {
+        "source_name": "SUGARFISH Santa Monica location page",
+        "source_url": "https://sugarfishsushi.com/locations/santa-monica/",
+        "excerpt": "1345 2nd St, Santa Monica, CA 90401",
+        "checked_at": "2026-03-24T00:00:00Z",
+        "confidence": 5
+      }
+    ]
+  },
+  {
+    "id": "local-sugarfish-studio-city",
+    "slug": "sugarfish-studio-city",
+    "name": "SUGARFISH (Studio City)",
+    "address": "11288 Ventura Blvd, Studio City, CA 91604",
+    "city": "Studio City",
+    "neighborhood": "Studio City",
+    "website": "https://sugarfishsushi.com/locations/studio-city/",
+    "lat": 34.1408,
+    "lng": -118.375,
+    "is_fast_food": false,
+    "has_no_tip_policy": true,
+    "has_service_fee": true,
+    "verification_status": "verified",
+    "verification_notes": "16% fee included.\n\nConfirmed by u/]Urmotherwasuhhamster",
+    "last_checked_at": "2026-03-24T00:00:00Z",
+    "citations": [
+      {
+        "source_name": "SUGARFISH Studio City location page",
+        "source_url": "https://sugarfishsushi.com/locations/studio-city/",
+        "excerpt": "11288 Ventura Blvd, Studio City, CA 91604",
+        "checked_at": "2026-03-24T00:00:00Z",
+        "confidence": 5
+      }
+    ]
+  },
+  {
+    "id": "local-sugarfish-pasadena",
+    "slug": "sugarfish-pasadena",
+    "name": "SUGARFISH (Pasadena)",
+    "address": "146 S Lake Ave #108, Pasadena, CA 91101",
+    "city": "Pasadena",
+    "neighborhood": "South Lake",
+    "website": "https://sugarfishsushi.com/locations/pasadena/",
+    "lat": 34.1432,
+    "lng": -118.132,
+    "is_fast_food": false,
+    "has_no_tip_policy": true,
+    "has_service_fee": true,
+    "verification_status": "verified",
+    "verification_notes": "16% fee included.\n\nConfirmed by u/]Urmotherwasuhhamster",
+    "last_checked_at": "2026-03-24T00:00:00Z",
+    "citations": [
+      {
+        "source_name": "SUGARFISH Pasadena location page",
+        "source_url": "https://sugarfishsushi.com/locations/pasadena/",
+        "excerpt": "146 S Lake Ave #108, Pasadena, CA 91101",
+        "checked_at": "2026-03-24T00:00:00Z",
+        "confidence": 5
+      }
+    ]
+  },
+  {
+    "id": "local-sugarfish-manhattan-beach",
+    "slug": "sugarfish-manhattan-beach",
+    "name": "SUGARFISH (Manhattan Beach)",
+    "address": "1015 N Sepulveda Blvd, Manhattan Beach, CA 90266",
+    "city": "Manhattan Beach",
+    "neighborhood": "Manhattan Beach",
+    "website": "https://sugarfishsushi.com/locations/manhattan-beach/",
+    "lat": 33.8863,
+    "lng": -118.397,
+    "is_fast_food": false,
+    "has_no_tip_policy": true,
+    "has_service_fee": true,
+    "verification_status": "verified",
+    "verification_notes": "16% fee included.\n\nConfirmed by u/]Urmotherwasuhhamster",
+    "last_checked_at": "2026-03-24T00:00:00Z",
+    "citations": [
+      {
+        "source_name": "SUGARFISH Manhattan Beach location page",
+        "source_url": "https://sugarfishsushi.com/locations/manhattan-beach/",
+        "excerpt": "1015 N Sepulveda Blvd, Manhattan Beach, CA 90266",
+        "checked_at": "2026-03-24T00:00:00Z",
+        "confidence": 5
+      }
+    ]
+  },
+  {
+    "id": "local-sugarfish-marina-del-rey",
+    "slug": "sugarfish-marina-del-rey",
+    "name": "SUGARFISH (Marina del Rey)",
+    "address": "4722 Admiralty Way, Marina Del Rey, CA 90292",
+    "city": "Marina Del Rey",
+    "neighborhood": "Marina Del Rey",
+    "website": "https://sugarfishsushi.com/locations/marina-del-rey/",
+    "lat": 33.9806,
+    "lng": -118.441,
+    "is_fast_food": false,
+    "has_no_tip_policy": true,
+    "has_service_fee": true,
+    "verification_status": "verified",
+    "verification_notes": "16% fee included.\n\nConfirmed by u/]Urmotherwasuhhamster",
+    "last_checked_at": "2026-03-24T00:00:00Z",
+    "citations": [
+      {
+        "source_name": "SUGARFISH Marina del Rey location page",
+        "source_url": "https://sugarfishsushi.com/locations/marina-del-rey/",
+        "excerpt": "4722 Admiralty Way, Marina Del Rey, CA 90292",
+        "checked_at": "2026-03-24T00:00:00Z",
+        "confidence": 5
+      }
+    ]
+  },
+  {
+    "id": "local-sugarfish-calabasas",
+    "slug": "sugarfish-calabasas",
+    "name": "SUGARFISH (Calabasas)",
+    "address": "4799 Commons Way, Calabasas, CA 91302",
+    "city": "Calabasas",
+    "neighborhood": "Calabasas",
+    "website": "https://sugarfishsushi.com/locations/calabasas/",
+    "lat": 34.1541,
+    "lng": -118.647,
+    "is_fast_food": false,
+    "has_no_tip_policy": true,
+    "has_service_fee": true,
+    "verification_status": "verified",
+    "verification_notes": "16% fee included.\n\nConfirmed by u/]Urmotherwasuhhamster",
+    "last_checked_at": "2026-03-24T00:00:00Z",
+    "citations": [
+      {
+        "source_name": "SUGARFISH Calabasas location page",
+        "source_url": "https://sugarfishsushi.com/locations/calabasas/",
+        "excerpt": "4799 Commons Way, Calabasas, CA 91302",
+        "checked_at": "2026-03-24T00:00:00Z",
+        "confidence": 5
+      }
+    ]
+  },
+  {
     "id": "local-bbq-ayce-ktown",
     "slug": "bbq-ayce-ktown",
     "name": "BBQ All You Can Eat",
