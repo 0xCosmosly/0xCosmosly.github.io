@@ -123,8 +123,13 @@ function getPreferredCitationQuote(
     return null;
   }
 
+  // Only consider citations that actually indicate a tip/service fee policy
+  const policyCitations = citationsWithExcerpt.filter(
+    (citation) => citation.indicates_no_tip || citation.indicates_service_fee
+  );
+
   const matchingCitation =
-    citationsWithExcerpt.find((citation) => {
+    policyCitations.find((citation) => {
       if (restaurant.has_service_fee && citation.indicates_service_fee) {
         return true;
       }
@@ -134,7 +139,7 @@ function getPreferredCitationQuote(
       }
 
       return false;
-    }) ?? citationsWithExcerpt[0];
+    }) ?? policyCitations[0] ?? null;
 
   return matchingCitation?.excerpt ? formatDirectQuote(matchingCitation.excerpt) : null;
 }
@@ -152,17 +157,23 @@ function getVerificationDisplay(
   const cleanedNotes = notes ?? '';
   const parsedNote = extractNoteTags(cleanedNotes);
 
+  // Split based on "Confirmed by" (case-insensitive, optional leading linebreaks)
+  const splitPattern = /\n*\s*(Confirmed by\s+.+)$/i;
+  const noteMatch = parsedNote.message.match(splitPattern);
+  const noteMessage = noteMatch ? parsedNote.message.replace(splitPattern, '').trim() : parsedNote.message;
+  const noteAttribution = noteMatch ? noteMatch[1].trim() : null;
+
   if (citationQuote) {
     return {
       message: citationQuote,
-      attribution: null,
+      attribution: noteAttribution,
       tags: parsedNote.tags
     };
   }
 
   return {
-    message: parsedNote.message,
-    attribution: null,
+    message: noteMessage,
+    attribution: noteAttribution,
     tags: parsedNote.tags
   };
 }

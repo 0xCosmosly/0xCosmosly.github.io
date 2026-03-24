@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import basicSsl from '@vitejs/plugin-basic-ssl';
 
 function getGitHubPagesBasePath() {
   const explicitBasePath = process.env.VITE_BASE_PATH?.trim();
@@ -22,9 +23,12 @@ function getGitHubPagesBasePath() {
   return repoName.toLowerCase() === `${owner.toLowerCase()}.github.io` ? '/' : `/${repoName}/`;
 }
 
-export default defineConfig({
+export default defineConfig(({ command }) => ({
   base: process.env.VITE_BASE_PATH?.trim() || (process.env.GITHUB_ACTIONS === 'true' ? getGitHubPagesBasePath() : '/'),
-  plugins: [react()],
+  plugins: [react(), basicSsl()],
+  server: {
+    https: true as any,
+  },
   build: {
     rollupOptions: {
       output: {
@@ -36,4 +40,4 @@ export default defineConfig({
       }
     }
   }
-});
+}));

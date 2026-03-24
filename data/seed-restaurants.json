@@ -1,5 +1,89 @@
 [
   {
+    "id": "local-bbq-ayce-ktown",
+    "slug": "bbq-ayce-ktown",
+    "name": "BBQ All You Can Eat",
+    "address": "3063 W 8th St, Los Angeles, CA 90005",
+    "city": "Los Angeles",
+    "neighborhood": "Koreatown",
+    "website": "http://bbqayce.com",
+    "lat": 34.0578,
+    "lng": -118.2934,
+    "is_fast_food": false,
+    "has_no_tip_policy": false,
+    "has_service_fee": true,
+    "verification_status": "verified",
+    "verification_notes": "14% service charge is included in the bill.\n\nConfirmed by u/goPACK17",
+    "last_checked_at": "2026-03-24T00:00:00Z",
+    "citations": [
+      {
+        "source_name": "Official Website",
+        "source_url": "http://bbqayce.com/menu/",
+        "excerpt": "14% service charge is included in the bill.",
+        "checked_at": "2026-03-24T00:00:00Z",
+        "indicates_no_tip": false,
+        "indicates_service_fee": true,
+        "confidence": 5
+      }
+    ]
+  },
+  {
+    "id": "local-bbq-ayce-2-ktown",
+    "slug": "bbq-ayce-2-ktown",
+    "name": "BBQ AYCE #2",
+    "address": "755 S Vermont Ave, Los Angeles, CA 90005",
+    "city": "Los Angeles",
+    "neighborhood": "Koreatown",
+    "website": "http://bbqayce.com",
+    "lat": 34.0583,
+    "lng": -118.2917,
+    "is_fast_food": false,
+    "has_no_tip_policy": false,
+    "has_service_fee": true,
+    "verification_status": "verified",
+    "verification_notes": "14% service charge is included in the bill.\n\nConfirmed by u/goPACK17",
+    "last_checked_at": "2026-03-24T00:00:00Z",
+    "citations": [
+      {
+        "source_name": "Official Website",
+        "source_url": "http://bbqayce.com/menu/",
+        "excerpt": "14% service charge is included in the bill.",
+        "checked_at": "2026-03-24T00:00:00Z",
+        "indicates_no_tip": false,
+        "indicates_service_fee": true,
+        "confidence": 5
+      }
+    ]
+  },
+  {
+    "id": "local-ayce-sushi-bbq-ktown",
+    "slug": "ayce-sushi-bbq-ktown",
+    "name": "All You Can Eat Sushi & BBQ",
+    "address": "3914 Wilshire Blvd, Los Angeles, CA 90010",
+    "city": "Los Angeles",
+    "neighborhood": "Koreatown",
+    "website": null,
+    "lat": 34.0616,
+    "lng": -118.312,
+    "is_fast_food": false,
+    "has_no_tip_policy": false,
+    "has_service_fee": true,
+    "verification_status": "verified",
+    "verification_notes": "14% service charge included in the bill.\n\nConfirmed by u/goPACK17",
+    "last_checked_at": "2026-03-24T00:00:00Z",
+    "citations": [
+      {
+        "source_name": "Official Website",
+        "source_url": "http://sushinbbq.com/",
+        "excerpt": "14% service charge included in the bill.",
+        "checked_at": "2026-03-24T00:00:00Z",
+        "indicates_no_tip": false,
+        "indicates_service_fee": true,
+        "confidence": 5
+      }
+    ]
+  },
+  {
     "id": "local-attari-sandwich-shop-westwood",
     "slug": "attari-sandwich-shop-westwood",
     "name": "Attari Sandwich Shop",
@@ -55,7 +139,7 @@
     "has_no_tip_policy": false,
     "has_service_fee": true,
     "verification_status": "verified",
-    "verification_notes": "Tip included.",
+    "verification_notes": "Tip included.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-14T00:00:00Z",
     "next_check_at": "2026-03-21T00:00:00Z",
     "citations": [
@@ -127,7 +211,7 @@
     "has_no_tip_policy": true,
     "has_service_fee": true,
     "verification_status": "verified",
-    "verification_notes": "Tip included, added per user request.",
+    "verification_notes": "Tip included.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-18T00:00:00Z",
     "next_check_at": "2026-03-25T00:00:00Z",
     "citations": [
@@ -158,7 +242,7 @@
     "has_no_tip_policy": true,
     "has_service_fee": true,
     "verification_status": "verified",
-    "verification_notes": "Tip included, added per user request.",
+    "verification_notes": "Tip included.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-18T00:00:00Z",
     "next_check_at": "2026-03-25T00:00:00Z",
     "citations": [
@@ -271,7 +355,7 @@
     "has_no_tip_policy": true,
     "has_service_fee": false,
     "verification_status": "verified",
-    "verification_notes": "No tipping.",
+    "verification_notes": "No tipping.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-14T00:00:00Z",
     "next_check_at": "2026-03-21T00:00:00Z",
     "citations": [
@@ -302,7 +386,7 @@
     "has_no_tip_policy": false,
     "has_service_fee": true,
     "verification_status": "verified",
-    "verification_notes": "Tip included.",
+    "verification_notes": "Tip included.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-14T00:00:00Z",
     "next_check_at": "2026-03-21T00:00:00Z",
     "citations": [
@@ -333,7 +417,7 @@
     "has_no_tip_policy": false,
     "has_service_fee": true,
     "verification_status": "verified",
-    "verification_notes": "Tip included.",
+    "verification_notes": "Tip included.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-14T00:00:00Z",
     "next_check_at": "2026-03-21T00:00:00Z",
     "citations": [
@@ -364,7 +448,7 @@
     "has_no_tip_policy": false,
     "has_service_fee": true,
     "verification_status": "verified",
-    "verification_notes": "Tip included.",
+    "verification_notes": "Tip included.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-14T00:00:00Z",
     "next_check_at": "2026-03-21T00:00:00Z",
     "citations": [
@@ -395,7 +479,7 @@
     "has_no_tip_policy": false,
     "has_service_fee": true,
     "verification_status": "verified",
-    "verification_notes": "Tip included.",
+    "verification_notes": "Tip included.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-14T00:00:00Z",
     "next_check_at": "2026-03-21T00:00:00Z",
     "citations": [
@@ -426,7 +510,7 @@
     "has_no_tip_policy": false,
     "has_service_fee": true,
     "verification_status": "verified",
-    "verification_notes": "Tip included.",
+    "verification_notes": "Tip included.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-14T00:00:00Z",
     "next_check_at": "2026-03-21T00:00:00Z",
     "citations": [
@@ -457,7 +541,7 @@
     "has_no_tip_policy": false,
     "has_service_fee": true,
     "verification_status": "verified",
-    "verification_notes": "Tip included.",
+    "verification_notes": "Tip included.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-14T00:00:00Z",
     "next_check_at": "2026-03-21T00:00:00Z",
     "citations": [
@@ -488,7 +572,7 @@
     "has_no_tip_policy": false,
     "has_service_fee": true,
     "verification_status": "verified",
-    "verification_notes": "Tip included.",
+    "verification_notes": "Tip included.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-14T00:00:00Z",
     "next_check_at": "2026-03-21T00:00:00Z",
     "citations": [
@@ -519,7 +603,7 @@
     "has_no_tip_policy": false,
     "has_service_fee": true,
     "verification_status": "verified",
-    "verification_notes": "Tip included.",
+    "verification_notes": "Tip included.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-14T00:00:00Z",
     "next_check_at": "2026-03-21T00:00:00Z",
     "citations": [
@@ -550,7 +634,7 @@
     "has_no_tip_policy": false,
     "has_service_fee": true,
     "verification_status": "verified",
-    "verification_notes": "Tip included.",
+    "verification_notes": "Tip included.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-14T00:00:00Z",
     "next_check_at": "2026-03-21T00:00:00Z",
     "citations": [
@@ -581,7 +665,7 @@
     "has_no_tip_policy": false,
     "has_service_fee": true,
     "verification_status": "verified",
-    "verification_notes": "Tip included.",
+    "verification_notes": "Tip included.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-14T00:00:00Z",
     "next_check_at": "2026-03-21T00:00:00Z",
     "citations": [
@@ -612,7 +696,7 @@
     "has_no_tip_policy": false,
     "has_service_fee": true,
     "verification_status": "verified",
-    "verification_notes": "Tip included.",
+    "verification_notes": "Tip included.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-14T00:00:00Z",
     "next_check_at": "2026-03-21T00:00:00Z",
     "citations": [
@@ -643,7 +727,7 @@
     "has_no_tip_policy": false,
     "has_service_fee": true,
     "verification_status": "verified",
-    "verification_notes": "Tip included.",
+    "verification_notes": "Tip included.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-14T00:00:00Z",
     "next_check_at": "2026-03-21T00:00:00Z",
     "citations": [
@@ -674,7 +758,7 @@
     "has_no_tip_policy": false,
     "has_service_fee": true,
     "verification_status": "verified",
-    "verification_notes": "Tip included.",
+    "verification_notes": "Tip included.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-14T00:00:00Z",
     "next_check_at": "2026-03-21T00:00:00Z",
     "citations": [
@@ -705,7 +789,7 @@
     "has_no_tip_policy": false,
     "has_service_fee": true,
     "verification_status": "verified",
-    "verification_notes": "Tip included.",
+    "verification_notes": "Tip included.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-14T00:00:00Z",
     "next_check_at": "2026-03-21T00:00:00Z",
     "citations": [
@@ -736,7 +820,7 @@
     "has_no_tip_policy": false,
     "has_service_fee": true,
     "verification_status": "verified",
-    "verification_notes": "Tip included.",
+    "verification_notes": "Tip included.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-14T00:00:00Z",
     "next_check_at": "2026-03-21T00:00:00Z",
     "citations": [
@@ -767,7 +851,7 @@
     "has_no_tip_policy": false,
     "has_service_fee": true,
     "verification_status": "verified",
-    "verification_notes": "Tip included.",
+    "verification_notes": "Tip included.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-14T00:00:00Z",
     "next_check_at": "2026-03-21T00:00:00Z",
     "citations": [
@@ -798,7 +882,7 @@
     "has_no_tip_policy": false,
     "has_service_fee": true,
     "verification_status": "verified",
-    "verification_notes": "Tip included.",
+    "verification_notes": "Tip included.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-14T00:00:00Z",
     "next_check_at": "2026-03-21T00:00:00Z",
     "citations": [
@@ -1116,7 +1200,7 @@
     "has_no_tip_policy": true,
     "has_service_fee": false,
     "verification_status": "verified",
-    "verification_notes": "No tipping.",
+    "verification_notes": "No tipping.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-15T00:00:00Z",
     "next_check_at": "2026-03-22T00:00:00Z",
     "citations": [
@@ -1178,7 +1262,7 @@
     "has_no_tip_policy": true,
     "has_service_fee": true,
     "verification_status": "verified",
-    "verification_notes": "Tip included, added per user request.",
+    "verification_notes": "Tip included.",
     "last_checked_at": "2026-03-18T00:00:00Z",
     "next_check_at": "2026-03-25T00:00:00Z",
     "citations": [
@@ -1424,7 +1508,7 @@
     "has_no_tip_policy": true,
     "has_service_fee": false,
     "verification_status": "verified",
-    "verification_notes": "No tipping.",
+    "verification_notes": "No tipping.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-15T00:00:00Z",
     "next_check_at": "2026-03-22T00:00:00Z",
     "citations": [
@@ -1455,7 +1539,7 @@
     "has_no_tip_policy": true,
     "has_service_fee": false,
     "verification_status": "verified",
-    "verification_notes": "No tipping, added per user request.",
+    "verification_notes": "No tipping.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-18T00:00:00Z",
     "next_check_at": "2026-03-25T00:00:00Z",
     "citations": [
@@ -1486,7 +1570,7 @@
     "has_no_tip_policy": true,
     "has_service_fee": false,
     "verification_status": "verified",
-    "verification_notes": "No tipping, added per user request.",
+    "verification_notes": "No tipping.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-18T00:00:00Z",
     "next_check_at": "2026-03-25T00:00:00Z",
     "citations": [
@@ -1517,7 +1601,7 @@
     "has_no_tip_policy": true,
     "has_service_fee": false,
     "verification_status": "verified",
-    "verification_notes": "No tipping, added per user request.",
+    "verification_notes": "No tipping.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-18T00:00:00Z",
     "next_check_at": "2026-03-25T00:00:00Z",
     "citations": [
@@ -1548,7 +1632,7 @@
     "has_no_tip_policy": true,
     "has_service_fee": false,
     "verification_status": "verified",
-    "verification_notes": "No tipping, added per user request.",
+    "verification_notes": "No tipping.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-18T00:00:00Z",
     "next_check_at": "2026-03-25T00:00:00Z",
     "citations": [
@@ -1579,7 +1663,7 @@
     "has_no_tip_policy": true,
     "has_service_fee": false,
     "verification_status": "verified",
-    "verification_notes": "No tipping, added per user request.",
+    "verification_notes": "No tipping.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-18T00:00:00Z",
     "next_check_at": "2026-03-25T00:00:00Z",
     "citations": [
@@ -1610,7 +1694,7 @@
     "has_no_tip_policy": true,
     "has_service_fee": false,
     "verification_status": "verified",
-    "verification_notes": "No tipping, added per user request.",
+    "verification_notes": "No tipping.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-18T00:00:00Z",
     "next_check_at": "2026-03-25T00:00:00Z",
     "citations": [
@@ -1723,7 +1807,7 @@
     "has_no_tip_policy": true,
     "has_service_fee": false,
     "verification_status": "verified",
-    "verification_notes": "No tipping, added per user request.",
+    "verification_notes": "No tipping.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-18T00:00:00Z",
     "next_check_at": "2026-03-25T00:00:00Z",
     "citations": [
@@ -1785,7 +1869,7 @@
     "has_no_tip_policy": true,
     "has_service_fee": true,
     "verification_status": "verified",
-    "verification_notes": "Tip included.",
+    "verification_notes": "Tip included.\n\nConfirmed by u/Cosmosly",
     "last_checked_at": "2026-03-17T00:00:00Z",
     "next_check_at": "2026-03-24T00:00:00Z",
     "citations": [

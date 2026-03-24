@@ -1790,6 +1790,7 @@ button:disabled {
   padding: 12px;
   font-family: 'Space Mono', monospace;
   font-size: var(--fluid-font-meta);
+  font-style: italic;
   transition: background-color 140ms ease, border-color 140ms ease;
 }
 
@@ -1823,6 +1824,9 @@ button:disabled {
 
 .notes-attribution {
   color: var(--text-soft);
+  display: block;
+  font-style: normal;
+  margin-top: 8px;
 }
 
 .restaurant-card h4 {
