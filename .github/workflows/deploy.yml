@@ -32,7 +32,7 @@ jobs:
         run: npm ci
         
       - name: Build
-        run: VITE_BASE_PATH=/Gratis-LA/ npm run build
+        run: npm run build
         
       - name: Setup Pages
         uses: actions/configure-pages@v5
