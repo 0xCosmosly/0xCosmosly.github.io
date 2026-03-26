@@ -401,28 +401,14 @@ export function MapView({
       return { marker, restaurant };
     });
 
-    const hideAllMarkers = () => {
-      markersRef.current.forEach(({ marker, restaurant }) => {
-        if (restaurant.id !== selectedId) {
-          marker.setStyle({ opacity: 0, fillOpacity: 0 });
-        }
-      });
-    };
-
+    
     const updateMarkerVisibility = () => {
-      const currentZoom = map.getZoom();
-      const hideMarkers = currentZoom < 10 || currentZoom > 15; 
-      markersRef.current.forEach(({ marker, restaurant }) => {
-        const isSelected = restaurant.id === selectedId;
-        if (hideMarkers && !isSelected) {
-          marker.setStyle({ opacity: 0, fillOpacity: 0 });
-        } else {
-          marker.setStyle({ opacity: 1, fillOpacity: 1 });
-        }
+      markersRef.current.forEach(({ marker }) => {
+        marker.setStyle({ opacity: 1, fillOpacity: 1 });
       });
     };
 
-    map.on('zoomstart', hideAllMarkers);
+    
     map.on('zoomend', updateMarkerVisibility);
     updateMarkerVisibility();
 
