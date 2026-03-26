@@ -1,4 +1,4 @@
-const CACHE_NAME = 'gratis-la-shell-v11';
+const CACHE_NAME = 'gratis-la-shell-v12';
 const scopePath = self.location.pathname.replace(/[^/]*$/, '');
 const withScope = (path = '') => new URL(path, self.location.origin + scopePath).pathname;
 const APP_SHELL = [
@@ -52,7 +52,14 @@ self.addEventListener('fetch', (event) => {
           caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseCopy));
           return networkResponse;
         })
-        .catch(() => caches.match(withScope('index.html')));
+        .catch(() => {
+          // If it's a navigation request (asking for an HTML page), return the cached index.html
+          if (event.request.mode === 'navigate' || (event.request.headers.get('accept') && event.request.headers.get('accept').includes('text/html'))) {
+            return caches.match(withScope('index.html'));
+          }
+          // Otherwise, just let the request fail instead of serving HTML as JS/CSS
+          return new Response('', { status: 408, statusText: 'Request Timeout' });
+        });
     })
   );
 });
