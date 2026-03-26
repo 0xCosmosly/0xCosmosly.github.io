@@ -150,13 +150,7 @@ export default function App() {
   const [query, setQuery] = useState<string>('');
   const [isSearchOpen, setIsSearchOpen] = useState<boolean>(false);
   const [statusFilters, setStatusFilters] = useState<VerificationStatus[]>(defaultStatuses);
-  const [policyFilter, setPolicyFilter] = useState<PolicyFilter>(() =>
-    typeof window !== 'undefined' &&
-    window.matchMedia(mobileViewportQuery).matches &&
-    !hasSharedRestaurantSelection
-      ? 'no_tip'
-      : 'all'
-  );
+  const [policyFilter, setPolicyFilter] = useState<PolicyFilter>('all');
   const [restaurantFilters, setRestaurantFilters] = useState<RestaurantVisibilityFilter[]>([
     ...defaultRestaurantFilters
   ]);
