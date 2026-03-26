@@ -142,7 +142,9 @@ function focusMapOnUserLocation(map: L.Map, userLocation: { lat: number; lng: nu
 function getLosAngelesOverviewZoom(map: L.Map) {
   const overviewPadding = L.point(...GREATER_LA_OVERVIEW_PADDING);
   const fittedZoom = map.getBoundsZoom(GREATER_LA_MAP_BOUNDS, false, overviewPadding);
-  return Math.max(MIN_ZOOM, fittedZoom + GREATER_LA_OVERVIEW_ZOOM_OFFSET);
+  const isMobile = typeof window !== 'undefined' && window.innerWidth <= 1024;
+  const zoomOffset = isMobile ? GREATER_LA_OVERVIEW_ZOOM_OFFSET + 1 : GREATER_LA_OVERVIEW_ZOOM_OFFSET;
+  return Math.max(MIN_ZOOM, fittedZoom + zoomOffset);
 }
 
 function focusMapOnLosAngelesOverview(map: L.Map, animate = false) {
