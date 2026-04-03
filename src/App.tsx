@@ -893,7 +893,7 @@ export default function App() {
         </strong>
         <br />
         This site will always be free for obvious reasons! … but if you want to help with server costs, feel free to
-        drop a buck{' '}
+        tip a buck{' '}
         <a className="hero-note-link" href={donationUrl} rel="noreferrer" target="_blank">
           here
         </a>
